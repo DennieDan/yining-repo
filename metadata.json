@@ -1,0 +1,6 @@
+{
+  "name": "T-Shirt Catalogue",
+  "description": "A curated premium T-shirt catalogue featuring heavyweight basics, graphic tees, sustainable organic cotton, interactive color studio, fit guide, detailed fabric specs, and shopping cart.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

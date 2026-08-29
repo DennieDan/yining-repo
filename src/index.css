@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-accent: #D4FF00;
+  --color-accent-hover: #bde600;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbars for dark bold typography theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4FF00;
+}
+
+
